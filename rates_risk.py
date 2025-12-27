@@ -13,6 +13,52 @@ from pandas.tseries.offsets import DateOffset
 from scipy.interpolate import CubicSpline, interp1d
 from scipy.optimize import brentq  # robust 1D root finder
 
+import requests
+from bs4 import BeautifulSoup
+from dotenv import load_dotenv
+from fredapi import Fred
+
+from data_loader import fetch_us_treasury_curve_today, build_india_gsec_curve, write_yield_curves_csv
+
+
+# ---------- Data loaders (CSV → objects) ----------
+
+def load_portfolio_from_csv(path: str = "data/bonds_portfolio.csv") -> List[Bond]:
+    """
+    Read bonds_portfolio.csv and return a list of Bond objects.
+    Uses pandas.read_csv for robustness. [web:110]
+    """
+    df = pd.read_csv(path)
+    bonds: List[Bond] = []
+    for _, row in df.iterrows():
+        bonds.append(
+            Bond(
+                bond_id=str(row["bond_id"]),
+                face_amt_cr=float(row["face_amt_cr"]),
+                coupon_rate=float(row["coupon_rate"]),
+                maturity_years=float(row["maturity_years"]),
+                freq=int(row.get("freq", 2)),
+            )
+        )
+    return bonds
+
+
+def load_curve_from_csv(
+    path: str = "data/yield_curves.csv",
+    curve_name: str = "US_TSY",
+) -> Dict[float, float]:
+    """
+    Read yield_curves.csv and return {tenor: rate} for the selected curve.
+    """
+    df = pd.read_csv(path)
+    sub = df[df["curve_name"] == curve_name]
+    curve: Dict[float, float] = {
+        float(row["tenor"]): float(row["rate"]) for _, row in sub.iterrows()
+    }
+    if not curve:
+        raise ValueError(f"No rows found for curve_name='{curve_name}' in {path}")
+    return curve
+
 
 # ---------- Data structures ----------
 
@@ -355,18 +401,7 @@ class RiskEngine:
 
 
 
-# ---------- Portfolio + main ----------
 
-def load_portfolio() -> List[Bond]:
-    """Production portfolio loader."""
-    return [
-        Bond("GSEC_7.75_2027", 250, 0.0775, 1.5),
-        Bond("GSEC_7.18_2033", 180, 0.0718, 7.5),
-        Bond("IND_8.15_2028_A", 120, 0.0815, 2.8),
-        Bond("IND_8.20_2029_B", 150, 0.0820, 2.9),
-        Bond("IND_8.25_2030_C", 180, 0.0825, 3.0),
-        Bond("IND_7.50_2030_D", 100, 0.0750, 5.0),
-    ]
 
 def build_scenarios(base_curve: Dict[float, float]) -> Dict[str, Dict[float, float]]:
     """
@@ -404,17 +439,22 @@ def main():
     pricer = BondPricer()
     risk_engine = RiskEngine(pricer)
 
-    # Example G-Sec curve
-    base_curve = {
-        0.25: 0.0625,
-        0.5: 0.0650,
-        1.0: 0.0675,
-        2.0: 0.0700,
-        5.0: 0.0725,
-        10.0: 0.0730,
-    }
 
-    portfolio = load_portfolio()
+    # LIVE DATA: Fetch + write curves
+    print("📡 Fetching live curves...")
+    us_curve = fetch_us_treasury_curve_today()
+    india_curve = build_india_gsec_curve()
+    write_yield_curves_csv(us_curve, india_curve)
+    print(f"✅ US 10Y: {us_curve[10]:.1%} | India 10Y: {india_curve[10]:.1%}")
+
+    # Load US curve from fresh CSV
+    base_curve = load_curve_from_csv(curve_name="US_TSY")
+
+
+    # Portfolio (from CSV)
+    portfolio = load_portfolio_from_csv(path="data/bonds_portfolio.csv")
+    print(f"📂 Loaded portfolio with {len(portfolio)} bonds.")
+
 
     # Per-bond risk
     rows = []
@@ -483,7 +523,3 @@ def main():
 
     print("\n💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv")
     return risk_df
-
-
-if __name__ == "__main__":
-    main()

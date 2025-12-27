@@ -1,0 +1,310 @@
+🚀 Rates Risk Toolkit v2.1 - Production Grade
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp      1018.192365      1004.831636  -13.360729 -0.013122
+1  parallel_-50bp      1018.192365      1031.831969   13.639604  0.013396
+2  bear_steepener      1018.192365      1001.872398  -16.319967 -0.016028
+3  bull_flattener      1018.192365      1008.026285  -10.166080 -0.009984
+
+✅ Portfolio MV: 1018.19 Cr
+✅ Portfolio DV01: -0.2700 Cr per 1bp
+✅ Portfolio Duration: 2.6516 years
+✅ Portfolio Convexity: 10.9017
+✅ Portfolio KRD 2Y: -0.3550
+✅ Portfolio KRD 5Y: 1.8399
+✅ Portfolio KRD 10Y: 0.1238
+
+📊 Per-bond Risk Report:
+   clean_price  dirty_price  ...  market_value_cr   dv01_pct
+0   261.811875   271.446147  ...       261.811875   9.160308
+1   184.731726   190.874177  ...       184.731726  37.100896
+2   127.185597   132.021861  ...       127.185597   8.542485
+3   159.157242   165.239660  ...       159.157242  10.684495
+4   184.739337   184.739337  ...       184.739337  18.634343
+5   100.566588   100.566588  ...       100.566588  15.877472
+
+[6 rows x 15 columns]
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+🚀 Rates Risk Toolkit v2.1 - Production Grade
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp      1018.192365      1004.831636  -13.360729 -0.013122
+1  parallel_-50bp      1018.192365      1031.831969   13.639604  0.013396
+2  bear_steepener      1018.192365      1001.872398  -16.319967 -0.016028
+3  bull_flattener      1018.192365      1008.026285  -10.166080 -0.009984
+
+✅ Portfolio MV: 1018.19 Cr
+✅ Portfolio DV01: -0.2700 Cr per 1bp
+✅ Portfolio Duration: 2.6516 years
+✅ Portfolio Convexity: 10.9017
+✅ Portfolio KRD 2Y: -0.3550
+✅ Portfolio KRD 5Y: 1.8399
+✅ Portfolio KRD 10Y: 0.1238
+
+📊 Per-bond Risk Report:
+   clean_price  dirty_price  ...  market_value_cr   dv01_pct
+0   261.811875   271.446147  ...       261.811875   9.160308
+1   184.731726   190.874177  ...       184.731726  37.100896
+2   127.185597   132.021861  ...       127.185597   8.542485
+3   159.157242   165.239660  ...       159.157242  10.684495
+4   184.739337   184.739337  ...       184.739337  18.634343
+5   100.566588   100.566588  ...       100.566588  15.877472
+
+[6 rows x 15 columns]
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+🚀 Rates Risk Toolkit v2.1 - Production Grade
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp      1018.192365      1004.831636  -13.360729 -0.013122
+1  parallel_-50bp      1018.192365      1031.831969   13.639604  0.013396
+2  bear_steepener      1018.192365      1001.872398  -16.319967 -0.016028
+3  bull_flattener      1018.192365      1008.026285  -10.166080 -0.009984
+
+✅ Portfolio MV: 1018.19 Cr
+✅ Portfolio DV01: -0.2700 Cr per 1bp
+✅ Portfolio Duration: 2.6516 years
+✅ Portfolio Convexity: 10.9017
+✅ Portfolio KRD 2Y: -0.3550
+✅ Portfolio KRD 5Y: 1.8399
+✅ Portfolio KRD 10Y: 0.1238
+
+📊 Per-bond Risk Report:
+   clean_price  dirty_price  ...  market_value_cr   dv01_pct
+0   261.811875   271.446147  ...       261.811875   9.160308
+1   184.731726   190.874177  ...       184.731726  37.100896
+2   127.185597   132.021861  ...       127.185597   8.542485
+3   159.157242   165.239660  ...       159.157242  10.684495
+4   184.739337   184.739337  ...       184.739337  18.634343
+5   100.566588   100.566588  ...       100.566588  15.877472
+
+[6 rows x 15 columns]
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+🚀 Rates Risk Toolkit v2.1 - Production Grade
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp      1018.192365      1004.831636  -13.360729 -0.013122
+1  parallel_-50bp      1018.192365      1031.831969   13.639604  0.013396
+2  bear_steepener      1018.192365      1001.872398  -16.319967 -0.016028
+3  bull_flattener      1018.192365      1008.026285  -10.166080 -0.009984
+
+✅ Portfolio MV: 1018.19 Cr
+✅ Portfolio DV01: -0.2700 Cr per 1bp
+✅ Portfolio Duration: 2.6516 years
+✅ Portfolio Convexity: 10.9017
+✅ Portfolio KRD 2Y: -0.3550
+✅ Portfolio KRD 5Y: 1.8399
+✅ Portfolio KRD 10Y: 0.1238
+
+📊 Per-bond Risk Report:
+   clean_price  dirty_price  ...  market_value_cr   dv01_pct
+0   261.811875   271.446147  ...       261.811875   9.160308
+1   184.731726   190.874177  ...       184.731726  37.100896
+2   127.185597   132.021861  ...       127.185597   8.542485
+3   159.157242   165.239660  ...       159.157242  10.684495
+4   184.739337   184.739337  ...       184.739337  18.634343
+5   100.566588   100.566588  ...       100.566588  15.877472
+
+[6 rows x 15 columns]
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+🚀 Rates Risk Toolkit v2.1 - Production Grade
+📡 Fetching live curves...
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 1321, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              encode_chunked=req.has_header('Transfer-encoding'))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 1338, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 1384, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 1479, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+                ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+                                          server_hostname=server_hostname)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jayminpatil/Desktop/rates_risk/main.py", line 8, in <module>
+    main()
+    ~~~~^^
+  File "/Users/jayminpatil/Desktop/rates_risk/rates_risk.py", line 445, in main
+    us_curve = fetch_us_treasury_curve_today()
+  File "/Users/jayminpatil/Desktop/rates_risk/data_loader.py", line 27, in fetch_us_treasury_curve_today
+    dgs2 = float(fred.get_series("DGS2", observation_start="2025-12-01").iloc[-1]) / 100
+                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jayminpatil/Desktop/rates_risk/venv/lib/python3.14/site-packages/fredapi/fred.py", line 151, in get_series
+    root = self.__fetch_data(url)
+  File "/Users/jayminpatil/Desktop/rates_risk/venv/lib/python3.14/site-packages/fredapi/fred.py", line 84, in __fetch_data
+    response = urlopen(url)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 487, in open
+    response = self._open(req, data)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 504, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 1369, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        context=self._context)
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 1324, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>
+🚀 Rates Risk Toolkit v2.1 - Production Grade
+📡 Fetching live curves...
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 1321, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              encode_chunked=req.has_header('Transfer-encoding'))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 1338, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 1384, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 1479, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+                ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+                                          server_hostname=server_hostname)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jayminpatil/Desktop/rates_risk/main.py", line 8, in <module>
+    main()
+    ~~~~^^
+  File "/Users/jayminpatil/Desktop/rates_risk/rates_risk.py", line 445, in main
+    us_curve = fetch_us_treasury_curve_today()
+  File "/Users/jayminpatil/Desktop/rates_risk/data_loader.py", line 27, in fetch_us_treasury_curve_today
+    dgs2 = float(fred.get_series("DGS2", observation_start="2025-12-01").iloc[-1]) / 100
+                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jayminpatil/Desktop/rates_risk/venv/lib/python3.14/site-packages/fredapi/fred.py", line 151, in get_series
+    root = self.__fetch_data(url)
+  File "/Users/jayminpatil/Desktop/rates_risk/venv/lib/python3.14/site-packages/fredapi/fred.py", line 84, in __fetch_data
+    response = urlopen(url)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 487, in open
+    response = self._open(req, data)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 504, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 1369, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        context=self._context)
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 1324, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>
+🚀 Rates Risk Toolkit v2.1 - Production Grade
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+📊 Per-bond Risk Report:
+   clean_price  dirty_price  ...  market_value_cr   dv01_pct
+0    10.139717    10.139717  ...        10.139717   2.456465
+1    12.358769    12.358769  ...        12.358769   4.399135
+2    15.599324    15.599324  ...        15.599324   8.840774
+3    18.411649    18.411649  ...        18.411649  13.914968
+4    20.979401    20.979401  ...        20.979401  21.235608
+5     8.464098     8.464098  ...         8.464098   2.020177
+6    10.920947    10.920947  ...        10.920947   3.801583
+7    13.625706    13.625706  ...        13.625706   7.456902
+8    17.261762    17.261762  ...        17.261762  12.457340
+9    24.554036    24.554036  ...        24.554036  23.417049
+
+[10 rows x 15 columns]
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
