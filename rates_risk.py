@@ -481,7 +481,7 @@ def main():
     port_krd_5y = (risk_df["krd_5y"] * risk_df["market_value_cr"]).sum() / total_mv
     port_krd_10y = (risk_df["krd_10y"] * risk_df["market_value_cr"]).sum() / total_mv
 
-    risk_df["dv01_pct"] = risk_df["dv01_cr"] / total_dv01 * 100.0
+    risk_df["dv01_pct"] = risk_df["dv01_cr"] / total_dv01 
 
     # ----- Scenario analysis -----
     scenarios = build_scenarios(base_curve)
@@ -490,6 +490,21 @@ def main():
     print("\n📉 Scenario P&L (portfolio):")
     print(scen_df)
 
+    # ----- Portfolio summary for Excel (1 row) -----
+    portfolio_summary = pd.DataFrame(
+        [
+            {
+                "total_mv": total_mv,
+                "port_duration": port_dur,
+                "port_dv01": total_dv01,
+                "port_convexity": port_conv,
+                "port_krd_2y": port_krd_2y,
+                "port_krd_5y": port_krd_5y,
+                "port_krd_10y": port_krd_10y,
+            }
+        ]
+    )
+    portfolio_summary.to_csv("outputs/portfolio_summary.csv", index=False)
 
     # Print summary
     print(f"\n✅ Portfolio MV: {total_mv:.2f} Cr")
@@ -499,6 +514,7 @@ def main():
     print(f"✅ Portfolio KRD 2Y: {port_krd_2y:.4f}")
     print(f"✅ Portfolio KRD 5Y: {port_krd_5y:.4f}")
     print(f"✅ Portfolio KRD 10Y: {port_krd_10y:.4f}")
+
 
     print("\n📊 Per-bond Risk Report:")
     print(risk_df.round(6))
