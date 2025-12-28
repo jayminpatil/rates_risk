@@ -1,0 +1,8 @@
+# Generated files
+outputs/
+logs/
+__pycache__/
+*.pyc
+.env
+*.xlsx
+.DS_Store

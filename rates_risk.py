@@ -13,11 +13,6 @@ from pandas.tseries.offsets import DateOffset
 from scipy.interpolate import CubicSpline, interp1d
 from scipy.optimize import brentq  # robust 1D root finder
 
-import requests
-from bs4 import BeautifulSoup
-from dotenv import load_dotenv
-from fredapi import Fred
-
 from data_loader import fetch_us_treasury_curve_today, build_india_gsec_curve, write_yield_curves_csv
 
 
@@ -429,11 +424,14 @@ def build_scenarios(base_curve: Dict[float, float]) -> Dict[str, Dict[float, flo
 
     return scen
 
-
 def main():
-    """Run full risk report and export CSVs."""
-    print("🚀 Rates Risk Toolkit v2.1 - Production Grade")
-
+    """
+    Production workflow:
+    1. Fetch live US/India curves (FRED + scrape)
+    2. Load 10-bond portfolio from CSV
+    3. Compute per-bond + portfolio risks (DV01, KRDs, scenarios)
+    4. Export CSVs for Excel dashboard
+    """
     os.makedirs("outputs", exist_ok=True)
 
     pricer = BondPricer()
@@ -491,19 +489,19 @@ def main():
     print(scen_df)
 
     # ----- Portfolio summary for Excel (1 row) -----
-    portfolio_summary = pd.DataFrame(
-        [
-            {
-                "total_mv": total_mv,
-                "port_duration": port_dur,
-                "port_dv01": total_dv01,
-                "port_convexity": port_conv,
-                "port_krd_2y": port_krd_2y,
-                "port_krd_5y": port_krd_5y,
-                "port_krd_10y": port_krd_10y,
-            }
-        ]
-    )
+    portfolio_summary = pd.DataFrame([
+        {
+            "total_mv_cr": total_mv,
+            "port_duration": port_dur,
+            "port_dv01_cr": total_dv01,
+            "port_convexity": port_conv,
+            "port_krd_2y": port_krd_2y,
+            "port_krd_5y": port_krd_5y,
+            "port_krd_10y": port_krd_10y,
+            "as_of_date": pd.Timestamp.now().strftime('%Y-%m-%d %H:%M')
+        }
+    ])
+
     portfolio_summary.to_csv("outputs/portfolio_summary.csv", index=False)
 
     # Print summary
@@ -516,8 +514,7 @@ def main():
     print(f"✅ Portfolio KRD 10Y: {port_krd_10y:.4f}")
 
 
-    print("\n📊 Per-bond Risk Report:")
-    print(risk_df.round(6))
+    print("\n✅ Per-bond risks computed for Excel")
 
 
     # Export

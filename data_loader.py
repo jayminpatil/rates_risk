@@ -21,16 +21,18 @@ def get_fred_client() -> Fred:
     if not api_key:
         raise RuntimeError("Set FRED_API_KEY in .env")
     # TEMP: disable SSL verification to avoid CERTIFICATE_VERIFY_FAILED
+    # TEMP SSL bypass: remove after macOS certs fixed with /Applications/Python 3.x/Install Certificates.command
     ssl._create_default_https_context = ssl._create_unverified_context
+
     return Fred(api_key=api_key)
 
 
 def fetch_us_treasury_curve_today() -> Dict[float, float]:
     """Live US Treasury curve from FRED (2y,5y,10y)."""
     fred = get_fred_client()
-    dgs2 = float(fred.get_series("DGS2", observation_start="2025-12-01").iloc[-1]) / 100
-    dgs5 = float(fred.get_series("DGS5", observation_start="2025-12-01").iloc[-1]) / 100
-    dgs10 = float(fred.get_series("DGS10", observation_start="2025-12-01").iloc[-1]) / 100
+    dgs2 = float(fred.get_series("DGS2", observation_start="2025-12-20").dropna().iloc[-1]) / 100
+    dgs5 = float(fred.get_series("DGS5", observation_start="2025-12-20").dropna().iloc[-1]) / 100
+    dgs10 = float(fred.get_series("DGS10", observation_start="2025-12-20").dropna().iloc[-1]) / 100
     
     return {
         0.25: dgs2 * 0.9, 0.5: dgs2 * 0.95, 1.0: (dgs2 + dgs5)/2,
