@@ -2,7 +2,7 @@
 **Live Fixed Income Portfolio Risk Analytics**  
 *US Treasuries + India G-Secs | FRED API + Excel Dashboard*
 
-[![Dashboard](https://github.com/jayminpatil/rates_risk/blob/main/Dashboard.png)](https://github.com/jayminpatil/rates_risk)
+[(https://github.com/jayminpatil/rates_risk/blob/main/Dashboard.png)](https://github.com/jayminpatil/rates_risk)
 
 **Production-grade toolkit** for FI portfolio risk management. Fetches live curves, prices 10-bond portfolio (US+India), computes DV01/KRDs/scenarios, exports to Excel dashboard.
 
