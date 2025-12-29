@@ -1,7 +1,5 @@
-"""
-Live market data loader for Rates Risk Toolkit
-US Treasury (FRED) + India G-Sec (scraped)
-"""
+#Live market data loader for Rates Risk Toolkit
+#US Treasury (FRED) + India G-Sec (scraped)
 import ssl
 import os
 import re
@@ -15,7 +13,7 @@ from dotenv import load_dotenv
 from fredapi import Fred
 
 def get_fred_client() -> Fred:
-    """FRED client from .env (SSL verify disabled temporarily)."""
+    #FRED client from .env (SSL verify disabled temporarily)
     load_dotenv()
     api_key = os.getenv("FRED_API_KEY")
     if not api_key:
@@ -28,7 +26,7 @@ def get_fred_client() -> Fred:
 
 
 def fetch_us_treasury_curve_today() -> Dict[float, float]:
-    """Live US Treasury curve from FRED (2y,5y,10y)."""
+    #Live US Treasury curve from FRED (2y,5y,10y)
     fred = get_fred_client()
     dgs2 = float(fred.get_series("DGS2", observation_start="2025-12-20").dropna().iloc[-1]) / 100
     dgs5 = float(fred.get_series("DGS5", observation_start="2025-12-20").dropna().iloc[-1]) / 100
@@ -40,7 +38,7 @@ def fetch_us_treasury_curve_today() -> Dict[float, float]:
     }
 
 def fetch_india_10y_yield() -> float:
-    """Scrape India 10Y G-Sec yield."""
+    #Scrape India 10Y G-Sec yield.
     url = "https://tradingeconomics.com/india/government-bond-yield"
     try:
         resp = requests.get(url, timeout=10)
@@ -54,7 +52,7 @@ def fetch_india_10y_yield() -> float:
     return 0.068  # fallback
 
 def build_india_gsec_curve() -> Dict[float, float]:
-    """India G-Sec curve anchored to live 10Y."""
+    #India G-Sec curve anchored to live 10Y.
     y10 = fetch_india_10y_yield()
     return {
         0.25: y10 - 0.005, 0.5: y10 - 0.004, 1.0: y10 - 0.003,
@@ -62,7 +60,7 @@ def build_india_gsec_curve() -> Dict[float, float]:
     }
 
 def write_yield_curves_csv(us_curve: Dict[float, float], india_curve: Dict[float, float]):
-    """Write BOTH curves to data/yield_curves.csv."""
+    #Write BOTH curves to data/yield_curves.csv.
     os.makedirs("data", exist_ok=True)
     rows = []
     for t, r in us_curve.items():

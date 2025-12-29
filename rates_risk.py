@@ -1,8 +1,3 @@
-"""
-Rates Risk Toolkit v2.1 - Production Grade
-Jaymin Patil | Fixed Income Analyst Portfolio
-"""
-
 import os
 from dataclasses import dataclass
 from typing import Dict, List
@@ -16,13 +11,15 @@ from scipy.optimize import brentq  # robust 1D root finder
 from data_loader import fetch_us_treasury_curve_today, build_india_gsec_curve, write_yield_curves_csv
 
 
-# ---------- Data loaders (CSV → objects) ----------
+# ---------- Data loaders (CSV --> objects) ----------
 
 def load_portfolio_from_csv(path: str = "data/bonds_portfolio.csv") -> List[Bond]:
+
     """
     Read bonds_portfolio.csv and return a list of Bond objects.
     Uses pandas.read_csv for robustness. [web:110]
     """
+
     df = pd.read_csv(path)
     bonds: List[Bond] = []
     for _, row in df.iterrows():
@@ -42,9 +39,9 @@ def load_curve_from_csv(
     path: str = "data/yield_curves.csv",
     curve_name: str = "US_TSY",
 ) -> Dict[float, float]:
-    """
-    Read yield_curves.csv and return {tenor: rate} for the selected curve.
-    """
+
+    #Read yield_curves.csv and return {tenor: rate} for the selected curve.
+
     df = pd.read_csv(path)
     sub = df[df["curve_name"] == curve_name]
     curve: Dict[float, float] = {
@@ -59,7 +56,7 @@ def load_curve_from_csv(
 
 @dataclass
 class Bond:
-    """Immutable bond definition"""
+    #Immutable bond definition
     bond_id: str
     face_amt_cr: float
     coupon_rate: float
@@ -70,14 +67,14 @@ class Bond:
 # ---------- Pricer ----------
 
 class BondPricer:
-    """Production bond pricing engine with validation + YTM solver"""
 
+    #Production bond pricing engine with validation + YTM solver
     def __init__(self, day_count: str = "act/365"):
         self.day_count = day_count
         self.day_count_fraction = 365.25
 
     def validate_inputs(self, face_amt: float, coupon_rate: float, maturity_years: float):
-        """Basic sanity checks."""
+        #Basic sanity checks.
         if face_amt <= 0:
             raise ValueError("Face amount must be positive")
         if coupon_rate < 0 or coupon_rate > 0.20:
@@ -86,7 +83,7 @@ class BondPricer:
             raise ValueError("Maturity between 0-30 years")
 
     def bond_cashflows(self, bond: Bond, settle_date: str = "2025-12-26") -> pd.DataFrame:
-        """Generate a simple fixed-coupon cashflow schedule."""
+        #Generate a simple fixed-coupon cashflow schedule.
         self.validate_inputs(bond.face_amt_cr, bond.coupon_rate, bond.maturity_years)
 
         settle = pd.to_datetime(settle_date)
@@ -127,7 +124,7 @@ class BondPricer:
         target_times: np.ndarray,
         interp_method: str = "cubic",
     ) -> np.ndarray:
-        """Interpolate spot curve and return continuous-compounding discount factors."""
+        #Interpolate spot curve and return continuous-compounding discount factors.
         tenors = np.array(sorted(spot_curve.keys()), dtype=float)
         spot_rates = np.array([spot_curve[t] for t in tenors], dtype=float)
 
@@ -151,7 +148,7 @@ class BondPricer:
         spot_curve: Dict[float, float],
         settle_date: str,
     ) -> Dict[str, float]:
-        """Price bond via discounted cashflows and simple accrued interest."""
+        #Price bond via discounted cashflows and simple accrued interest.
         settle = pd.to_datetime(settle_date)
 
         if "days_to_payment" not in cashflows_df.columns:
@@ -203,7 +200,7 @@ class BondPricer:
         ytm: float,
         freq: int,
     ) -> float:
-        """Present value of bond cashflows under flat yield (discrete compounding)."""
+        #Present value of bond cashflows under flat yield (discrete compounding)
         # Assume equal spacing; use index as period count
         cf = cashflows_df["total_cf"].values
         n = len(cf)
@@ -219,7 +216,7 @@ class BondPricer:
         target_dirty: float,
         freq: int = 2,
     ) -> float:
-        """Solve for flat YTM (discrete) that matches target_dirty."""
+        #Solve for flat YTM (discrete) that matches target_dirty.
         # Root function: PV(ytm) - target_price = 0
         def f(y):
             return self._pv_from_flat_ytm(cashflows_df, y, freq) - target_dirty
@@ -232,7 +229,7 @@ class BondPricer:
 # ---------- Risk engine ----------
 
 class RiskEngine:
-    """Duration, DV01, convexity, and portfolio aggregation."""
+    #Duration, DV01, convexity, and portfolio aggregation.
 
     def __init__(self, pricer: BondPricer):
         self.pricer = pricer
@@ -292,15 +289,17 @@ class RiskEngine:
         settle_date: str = "2025-12-26",
         shift: float = 0.0001,
     ) -> Dict[float, float]:
+        
         """
         Compute key rate duration for selected curve tenors.
         For each key tenor:
           - bump ONLY that tenor up/down by 'shift'
           - reprice bond
-          - apply KRD formula: (P- - P+) / (2 * Δy * P0)  [per CFA/industry convention]. [web:80][web:83]
+          - apply KRD formula: (P- - P+) / (2 * Δy * P0)
         Returns:
           {tenor: krd_value}
         """
+
         # Base cashflows and price
         cfs = self.pricer.bond_cashflows(bond, settle_date)
         base_price = self.pricer.price_bond(cfs, spot_curve, settle_date)["clean_price"]
@@ -331,12 +330,14 @@ class RiskEngine:
         scenarios: Dict[str, Dict[float, float]],
         settle_date: str = "2025-12-26",
     ) -> Dict[str, Dict[str, float]]:
+        
         """
         Compute price/P&L for a single bond under multiple curve scenarios.
         scenarios: {scenario_name: scenario_curve_dict}
         Returns:
           {scenario_name: {"price": ..., "abs_pnl": ..., "pct_pnl": ...}}
         """
+
         cfs = self.pricer.bond_cashflows(bond, settle_date)
         base_price = self.pricer.price_bond(cfs, base_curve, settle_date)["clean_price"]
 
@@ -359,10 +360,12 @@ class RiskEngine:
         scenarios: Dict[str, Dict[float, float]],
         settle_date: str = "2025-12-26",
     ) -> pd.DataFrame:
+        
         """
         Aggregate scenario P&L at portfolio level.
         Returns DataFrame with columns: scenario, port_price, abs_pnl_cr, pct_pnl
         """
+
         rows = []
 
         for name, scen_curve in scenarios.items():
@@ -399,6 +402,7 @@ class RiskEngine:
 
 
 def build_scenarios(base_curve: Dict[float, float]) -> Dict[str, Dict[float, float]]:
+
     """
     Construct simple term-structure scenarios:
       - parallel +50bp / -50bp
@@ -406,6 +410,7 @@ def build_scenarios(base_curve: Dict[float, float]) -> Dict[str, Dict[float, flo
       - bull flattener (short up, long down)
     These are standard FI term-structure views. [web:85][web:89]
     """
+    
     scen = {}
 
     # Parallel shifts
@@ -425,6 +430,7 @@ def build_scenarios(base_curve: Dict[float, float]) -> Dict[str, Dict[float, flo
     return scen
 
 def main():
+
     """
     Production workflow:
     1. Fetch live US/India curves (FRED + scrape)
@@ -432,6 +438,8 @@ def main():
     3. Compute per-bond + portfolio risks (DV01, KRDs, scenarios)
     4. Export CSVs for Excel dashboard
     """
+
+    # Ensure output directory exists
     os.makedirs("outputs", exist_ok=True)
 
     pricer = BondPricer()
@@ -439,11 +447,11 @@ def main():
 
 
     # LIVE DATA: Fetch + write curves
-    print("📡 Fetching live curves...")
+    print("Fetching live curves...")
     us_curve = fetch_us_treasury_curve_today()
     india_curve = build_india_gsec_curve()
     write_yield_curves_csv(us_curve, india_curve)
-    print(f"✅ US 10Y: {us_curve[10]:.1%} | India 10Y: {india_curve[10]:.1%}")
+    print(f"US 10Y: {us_curve[10]:.1%} | India 10Y: {india_curve[10]:.1%}")
 
     # Load US curve from fresh CSV
     base_curve = load_curve_from_csv(curve_name="US_TSY")
@@ -485,15 +493,15 @@ def main():
     scenarios = build_scenarios(base_curve)
     scen_df = risk_engine.scenario_pnl_portfolio(portfolio, base_curve, scenarios)
 
-    print("\n📉 Scenario P&L (portfolio):")
+    print("\n Scenario P&L (portfolio):")
     print(scen_df)
 
     # ----- Portfolio summary for Excel (1 row) -----
     portfolio_summary = pd.DataFrame([
         {
-            "total_mv_cr": total_mv,
+            "total_mv": total_mv,
             "port_duration": port_dur,
-            "port_dv01_cr": total_dv01,
+            "port_dv01": total_dv01,
             "port_convexity": port_conv,
             "port_krd_2y": port_krd_2y,
             "port_krd_5y": port_krd_5y,
@@ -505,16 +513,16 @@ def main():
     portfolio_summary.to_csv("outputs/portfolio_summary.csv", index=False)
 
     # Print summary
-    print(f"\n✅ Portfolio MV: {total_mv:.2f} Cr")
-    print(f"✅ Portfolio DV01: -{total_dv01:.4f} Cr per 1bp")
-    print(f"✅ Portfolio Duration: {port_dur:.4f} years")
-    print(f"✅ Portfolio Convexity: {port_conv:.4f}")
-    print(f"✅ Portfolio KRD 2Y: {port_krd_2y:.4f}")
-    print(f"✅ Portfolio KRD 5Y: {port_krd_5y:.4f}")
-    print(f"✅ Portfolio KRD 10Y: {port_krd_10y:.4f}")
+    print(f"\n Portfolio MV: {total_mv:.2f} Cr")
+    print(f" Portfolio DV01: -{total_dv01:.4f} Cr per 1bp")
+    print(f" Portfolio Duration: {port_dur:.4f} years")
+    print(f" Portfolio Convexity: {port_conv:.4f}")
+    print(f" Portfolio KRD 2Y: {port_krd_2y:.4f}")
+    print(f" Portfolio KRD 5Y: {port_krd_5y:.4f}")
+    print(f" Portfolio KRD 10Y: {port_krd_10y:.4f}")
 
 
-    print("\n✅ Per-bond risks computed for Excel")
+    print("\n Per-bond risks computed for Excel")
 
 
     # Export
@@ -534,5 +542,5 @@ def main():
         ]
     ).to_csv("outputs/portfolio_raw.csv", index=False)
 
-    print("\n💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv")
+    print("\n Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv")
     return risk_df
