@@ -1,5 +1,0 @@
-scenario,port_base_mv_cr,port_scen_mv_cr,abs_pnl_cr,pct_pnl
-parallel_+50bp,397.907874,388.417049,-9.490825,-0.023852
-parallel_-50bp,397.907874,407.716078,9.808204,0.024649
-bear_steepener,397.907874,384.23563,-13.672244,-0.03436
-bull_flattener,397.907874,392.76646,-5.141414,-0.012921
