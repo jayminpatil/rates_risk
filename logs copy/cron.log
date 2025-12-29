@@ -1,0 +1,2642 @@
+/bin/sh: python: command not found
+/bin/sh: python: command not found
+/bin/sh: python: command not found
+Traceback (most recent call last):
+  File "/Users/jayminpatil/Desktop/rates_risk/main.py", line 5, in <module>
+    from rates_risk import main
+  File "/Users/jayminpatil/Desktop/rates_risk/rates_risk.py", line 10, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+ Portfolio MV: 152.32 Cr
+ Portfolio DV01: -0.0800 Cr per 1bp
+ Portfolio Duration: 5.2519 years
+ Portfolio Convexity: 36.1093
+ Portfolio KRD 2Y: -1.9561
+ Portfolio KRD 5Y: 3.4223
+ Portfolio KRD 10Y: 2.0906
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+ Portfolio MV: 152.32 Cr
+ Portfolio DV01: -0.0800 Cr per 1bp
+ Portfolio Duration: 5.2519 years
+ Portfolio Convexity: 36.1093
+ Portfolio KRD 2Y: -1.9561
+ Portfolio KRD 5Y: 3.4223
+ Portfolio KRD 10Y: 2.0906
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+ Portfolio MV: 152.32 Cr
+ Portfolio DV01: -0.0800 Cr per 1bp
+ Portfolio Duration: 5.2519 years
+ Portfolio Convexity: 36.1093
+ Portfolio KRD 2Y: -1.9561
+ Portfolio KRD 5Y: 3.4223
+ Portfolio KRD 10Y: 2.0906
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+ Portfolio MV: 152.32 Cr
+ Portfolio DV01: -0.0800 Cr per 1bp
+ Portfolio Duration: 5.2519 years
+ Portfolio Convexity: 36.1093
+ Portfolio KRD 2Y: -1.9561
+ Portfolio KRD 5Y: 3.4223
+ Portfolio KRD 10Y: 2.0906
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+ Portfolio MV: 152.32 Cr
+ Portfolio DV01: -0.0800 Cr per 1bp
+ Portfolio Duration: 5.2519 years
+ Portfolio Convexity: 36.1093
+ Portfolio KRD 2Y: -1.9561
+ Portfolio KRD 5Y: 3.4223
+ Portfolio KRD 10Y: 2.0906
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+ Portfolio MV: 152.32 Cr
+ Portfolio DV01: -0.0800 Cr per 1bp
+ Portfolio Duration: 5.2519 years
+ Portfolio Convexity: 36.1093
+ Portfolio KRD 2Y: -1.9561
+ Portfolio KRD 5Y: 3.4223
+ Portfolio KRD 10Y: 2.0906
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+ Portfolio MV: 152.32 Cr
+ Portfolio DV01: -0.0800 Cr per 1bp
+ Portfolio Duration: 5.2519 years
+ Portfolio Convexity: 36.1093
+ Portfolio KRD 2Y: -1.9561
+ Portfolio KRD 5Y: 3.4223
+ Portfolio KRD 10Y: 2.0906
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+ Portfolio MV: 152.32 Cr
+ Portfolio DV01: -0.0800 Cr per 1bp
+ Portfolio Duration: 5.2519 years
+ Portfolio Convexity: 36.1093
+ Portfolio KRD 2Y: -1.9561
+ Portfolio KRD 5Y: 3.4223
+ Portfolio KRD 10Y: 2.0906
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+ Portfolio MV: 152.32 Cr
+ Portfolio DV01: -0.0800 Cr per 1bp
+ Portfolio Duration: 5.2519 years
+ Portfolio Convexity: 36.1093
+ Portfolio KRD 2Y: -1.9561
+ Portfolio KRD 5Y: 3.4223
+ Portfolio KRD 10Y: 2.0906
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+ Portfolio MV: 152.32 Cr
+ Portfolio DV01: -0.0800 Cr per 1bp
+ Portfolio Duration: 5.2519 years
+ Portfolio Convexity: 36.1093
+ Portfolio KRD 2Y: -1.9561
+ Portfolio KRD 5Y: 3.4223
+ Portfolio KRD 10Y: 2.0906
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       157.385268       153.404738   -3.980530 -0.025292
+1  parallel_-50bp       157.385268       161.504215    4.118947  0.026171
+2  bear_steepener       157.385268       151.359316   -6.025952 -0.038288
+3  bull_flattener       157.385268       155.531316   -1.853952 -0.011780
+
+ Portfolio MV: 157.39 Cr
+ Portfolio DV01: -0.0810 Cr per 1bp
+ Portfolio Duration: 5.1451 years
+ Portfolio Convexity: 34.3107
+ Portfolio KRD 2Y: -1.8323
+ Portfolio KRD 5Y: 3.3120
+ Portfolio KRD 10Y: 2.0232
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp        187.05629       182.692571   -4.363719 -0.023328
+1  parallel_-50bp        187.05629       191.564155    4.507865  0.024099
+2  bear_steepener        187.05629       180.745310   -6.310980 -0.033738
+3  bull_flattener        187.05629       184.722996   -2.333294 -0.012474
+
+ Portfolio MV: 187.06 Cr
+ Portfolio DV01: -0.0887 Cr per 1bp
+ Portfolio Duration: 4.7418 years
+ Portfolio Convexity: 32.0759
+ Portfolio KRD 2Y: -1.1178
+ Portfolio KRD 5Y: 2.8862
+ Portfolio KRD 10Y: 1.7047
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/fredapi/fred.py", line 84, in __fetch_data
+    response = urlopen(url)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 493, in open
+    response = meth(req, response)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 502: Bad Gateway
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jayminpatil/Desktop/rates_risk/main.py", line 110, in <module>
+    main()
+    ~~~~^^
+  File "/Users/jayminpatil/Desktop/rates_risk/main.py", line 27, in main
+    us_curve = fetch_us_treasury_curve_today()
+  File "/Users/jayminpatil/Desktop/rates_risk/data_loader.py", line 33, in fetch_us_treasury_curve_today
+    dgs10 = float(fred.get_series("DGS10", observation_start="2025-12-20").dropna().iloc[-1]) / 100
+                  ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/fredapi/fred.py", line 151, in get_series
+    root = self.__fetch_data(url)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/fredapi/fred.py", line 88, in __fetch_data
+    raise ValueError(root.get('message'))
+ValueError: None
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+📡 Fetching live curves...
+✅ US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+📉 Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       152.315409       148.383777   -3.931632 -0.025812
+1  parallel_-50bp       152.315409       156.384974    4.069565  0.026718
+2  bear_steepener       152.315409       146.313954   -6.001455 -0.039401
+3  bull_flattener       152.315409       150.534636   -1.780773 -0.011691
+
+✅ Portfolio MV: 152.32 Cr
+✅ Portfolio DV01: -0.0800 Cr per 1bp
+✅ Portfolio Duration: 5.2519 years
+✅ Portfolio Convexity: 36.1093
+✅ Portfolio KRD 2Y: -1.9561
+✅ Portfolio KRD 5Y: 3.4223
+✅ Portfolio KRD 10Y: 2.0906
+
+✅ Per-bond risks computed for Excel
+
+💾 Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
+Fetching live curves...
+US 10Y: 4.2% | India 10Y: 6.8%
+📂 Loaded portfolio with 10 bonds.
+
+ Scenario P&L (portfolio):
+         scenario  port_base_mv_cr  port_scen_mv_cr  abs_pnl_cr   pct_pnl
+0  parallel_+50bp       397.907874       388.417049   -9.490825 -0.023852
+1  parallel_-50bp       397.907874       407.716078    9.808204  0.024649
+2  bear_steepener       397.907874       384.235630  -13.672244 -0.034360
+3  bull_flattener       397.907874       392.766460   -5.141414 -0.012921
+
+ Portfolio MV: 397.91 Cr
+ Portfolio DV01: -0.1929 Cr per 1bp
+ Portfolio Duration: 4.8491 years
+ Portfolio Convexity: 32.4196
+ Portfolio KRD 2Y: -0.9251
+ Portfolio KRD 5Y: 2.8505
+ Portfolio KRD 10Y: 1.8116
+
+ Per-bond risks computed for Excel
+
+ Saved: outputs/risk_raw.csv and outputs/portfolio_raw.csv
